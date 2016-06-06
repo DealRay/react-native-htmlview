@@ -72,7 +72,7 @@ function htmlToElement(rawHtml, opts, done) {
 
   var handler = new htmlparser.DomHandler(function(err, dom) {
     if (err) done(err)
-    done(null, domToElement(dom).split("\n\n\n").join("\n\n"))
+    done(null, domToElement(dom))
   })
   var parser = new htmlparser.Parser(handler)
   parser.write(rawHtml)
