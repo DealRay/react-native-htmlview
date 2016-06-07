@@ -4,7 +4,9 @@ import {
   Dimensions,
 } from 'react-native';
 
-var {width} = Dimensions.get('window')
+var Dimensions = require('Dimensions');
+var {width} = Dimensions.get('window');
+console.log("Image.js", width)
 
 var baseStyle = {
   backgroundColor: 'transparent',
