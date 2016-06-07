@@ -1,4 +1,4 @@
-var React = require('react-native')
+import React from 'react';
 var TestUtils = require('react-addons-test-utils')
 var HTMLView = require('../HTMLView')
 jest.setMock('../htmlToElement', jest.fn())

@@ -1,10 +1,10 @@
-var React = require('react-native')
+import React from 'react';
 var htmlToElement = require('./htmlToElement')
-var {
+import {
   Linking,
   StyleSheet,
   Text,
-} = React
+} from 'react-native';
 
 
 var HTMLView = React.createClass({

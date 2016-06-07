@@ -1,10 +1,10 @@
-var React = require('react-native')
+import React from 'react';
 var htmlparser = require('./vendor/htmlparser2')
 var entities = require('./vendor/entities')
 
-var {
+import {
   Text,
-} = React
+} from 'react-native';
 
 var Image = require('./helper/Image')
 
