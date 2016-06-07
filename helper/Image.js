@@ -1,11 +1,11 @@
 import React from 'react';
 import {
   Image,
+  Dimensions,
 } from 'react-native';
 
-var Dimensions = require('Dimensions');
-var {width} = Dimensions.get('window');
-console.log("Image.js", width)
+var {width} = Dimensions.get('window')
+console.log('Image.js', width)
 
 var baseStyle = {
   backgroundColor: 'transparent',
