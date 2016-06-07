@@ -43,6 +43,8 @@ function htmlToElement(rawHtml, opts, done) {
           }
           var source = {
             uri: node.attribs.src,
+            width: img_w,
+            height: img_h,
           }
           console.log(47, img_style, source)
           return (
