@@ -46,7 +46,7 @@ function htmlToElement(rawHtml, opts, done) {
             width: img_w,
             height: img_h,
           }
-          console.log(47, img_style, source)
+
           return (
             <Image key={index} source={source} style={img_style} />
           )

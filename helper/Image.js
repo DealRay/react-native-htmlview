@@ -5,7 +5,6 @@ import {
 } from 'react-native';
 
 var {width} = Dimensions.get('window')
-console.log('Image.js', width)
 
 var baseStyle = {
   backgroundColor: 'transparent',
@@ -42,7 +41,7 @@ var ResizableImage = React.createClass({
     } else {
       source = Object.assign(source, this.props.source, finalSize)
     }
-    console.log(45, finalSize)
+
     return (
       <Image
         style={style}
