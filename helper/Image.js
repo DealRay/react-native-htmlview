@@ -1,7 +1,6 @@
 import React from 'react';
 import {
   Image,
-  Dimensions,
 } from 'react-native';
 
 var Dimensions = require('Dimensions');
