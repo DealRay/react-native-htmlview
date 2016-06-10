@@ -30,7 +30,7 @@ var ResizableImage = React.createClass({
   render: function() {
     var finalSize = {}
     if (this.state.width > width) {
-      finalSize.width = width
+      finalSize.width = width - 40
       var ratio = width / this.state.width
       finalSize.height = this.state.height * ratio
     }
